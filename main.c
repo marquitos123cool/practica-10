@@ -9,11 +9,11 @@ int main(void){
 do{
     printf("Elije la figura con la que quieres trabajar: \n");
     printf("\n");
-    printf("1) Circulo");
-    printf("2) Rectangulo");
-    printf("3) Triangulo");
-    printf("4) Pentagono");
-    printf("5) Salir");
+    printf("1) Circulo\n");
+    printf("2) Rectangulo\n");
+    printf("3) Triangulo\n");
+    printf("4) Pentagono\n");
+    printf("5) Salir\n");
     scanf("%d",&menu);
 
     switch(menu){
@@ -35,7 +35,7 @@ do{
     break;
 
     case 5:
-    printf("byeeeeeeeeeeee :D");
+    printf("byeeeeeeeeeeee :D\n");
     break;
 
     default:

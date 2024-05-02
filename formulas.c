@@ -46,7 +46,7 @@ default:
 printf("Eso no es una de las opciones .-.\n");
 break;
 }
-return 0;
+
 }
 
 void Rectangulo(){
@@ -91,7 +91,7 @@ default:
 printf("Eso no es una de las opciones .-.\n");
 break;
 }
-return 0;
+
 }
 
 void Triangulo(){
@@ -126,10 +126,10 @@ break;
 case 2:
 printf("Dame tu base porfavor :)\n");
 printf("\n");
-scanf("%f",base);
+scanf("%f",&base);
 printf("Dame tu altura porfavor :)\n");
 printf("\n");
-scanf("%f",altura);
+scanf("%f",&altura);
 resul=(base*altura)/2;
 printf("El Area es %.2f.\n",resul);
 break;
@@ -138,7 +138,7 @@ default:
 printf("Eso no es una de las opciones .-.\n");
 break;
 }
-return 0;
+
 }
 
 void Pentagono(){
@@ -177,5 +177,5 @@ default:
 printf("Eso no es una de las opciones .-.\n");
 break;
 }
-return 0;
+
 }
